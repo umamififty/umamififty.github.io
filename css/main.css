@@ -1,6 +1,7 @@
 body{
     background-color: #FFD2C7;
 }
+
 hr{
     border-style: none;
     border-top-style: dotted;
@@ -8,6 +9,23 @@ hr{
     border-color: grey;
     border-width: 10px;
 }
+
 img{
-    height: 500px;
+    height: auto;
+    width: 250px;
+}
+
+h1{
+    color:brown;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
+
+}
+
+h3{
+    color:brown;
+    background-color: white;
+    border-radius: 25px;
+    padding: 20px;
 }
