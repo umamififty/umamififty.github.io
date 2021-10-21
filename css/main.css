@@ -1,3 +1,12 @@
+.introduction{
+    font-family: 'Roboto', sans-serif;
+}
+
+.profilepic{
+    height: auto;
+    width: 250px;
+}
+
 body{
     background-color: #FFD2C7;
 }
@@ -10,17 +19,12 @@ hr{
     border-width: 10px;
 }
 
-img{
-    height: auto;
-    width: 250px;
-}
-
 h1{
     color:brown;
     background-color: white;
     border-radius: 25px;
     padding: 20px;
-
+    font-family: 'Roboto', sans-serif;
 }
 
 h3{
@@ -28,4 +32,5 @@ h3{
     background-color: white;
     border-radius: 25px;
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
 }
