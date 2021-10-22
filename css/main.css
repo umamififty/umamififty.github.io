@@ -1,35 +1,41 @@
+/* The background colour. */
 body{
     background-color: #fbc369;
 }
 
-.profilepic{
-    height: auto;
-    width: 250px;
+/* The icon's rounded borders*/
+.navbar-brand{
+    border-radius: "25px";
 }
 
+/* The navbar colour. */
 .navbar{
     background-color: #fbc369;
 }
 
+/* The links, changed to black text. */
 .navbar-dark .navbar-nav .nav-link {
     color: black;
 } 
 
+/* The jumbotron... does it work? */
 .jumbotron{
     background-color: black;
     border-radius: 0;
 }
 
+/* This is for the button-esque horizontal rows */
 hr{
     border-style: none;
     border-top-style: dotted;
     width: 5%;
-    border-color: grey;
+    border-color: black;
     border-width: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
+/* h1 text font and colours. */
 h1{
     color:#fbc369;
     background-color: black;
@@ -37,10 +43,20 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 
+/* h2 text font, alignment and colours. */
 h2{
     color:#fbc369;
     background-color: black;
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+/* h3 text font, alignment and colours. */
+h3{
+    color:white;
+    background-color: black;
+    padding: 10px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
 }
