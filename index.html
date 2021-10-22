@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>邱鎮宇 @khoozinho</title>
     <link rel="icon" href="images/icon.svg">
     <meta name="description" content="">
@@ -11,110 +10,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
+    <script defer src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+        </script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"
+        integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous">
+        </script>
 </head>
 
 <body>
-    <table cellspacing="10" class="introduction">
-        <tr>
-            <td><img class="profilepic" src="images/myself.png" alt=""></td>
-            <td>
-                <h1>Zhenyu's Web Page!</h1>
-                <p>I am an aspiring Web Developer! :)</p>
-            </td>
-        </tr>
-    </table>
+    <nav class="navbar navbar-expand-sm navbar-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="images/icon.svg" width="80">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <hr>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="workexp.html">Work</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Socials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactme.html">Contact Me</a>
+                </li>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
-    <section id="education">
-        <h3>Education</h3>
-        <ol>
-            <li><em>Incoming undergraduate student, College of Information Science and Engineering,
-                    <strong><a href="http://en.ritsumei.ac.jp/" target="_blank">Ritsumeikan University</a></strong></em>
-            </li>
-            <br>
-            <li>
-                <a href="https://www.sp.edu.sg/engineering-cluster/eee/courses/full-time-diplomas/computer-engineering/overview"
-                    target="_blank">Diploma
-                    in Computer Engineering, Singapore Polytechnic</a>
-            </li>
-            <br>
-            <li>Student, St. Andrew's Secondary School</li>
-            <br>
-            <li>Student, Geylang Methodist School (Primary)</li>
-        </ol>
-    </section>
-
-    <hr>
-
-    <section id="work">
-        <h3><a href="workexp.html" target="_blank">My work experience!</a></h3>
-        <table cellspacing="5">
-            <thead>
-                <tr>
-                    <th>Dates</th>
-                    <th>Work</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2019-2021</td>
-                    <td>3rd Sergeant, Singapore Armed Forces</td>
-                </tr>
-                <tr>
-                    <td>2018</td>
-                    <td>The Boys' Brigade Singapore</td>
-                </tr>
-                <tr>
-                    <td>2015</td>
-                    <td>NTUC Fairprice</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-
-    <hr>
-
-    <section id="skills">
-        <h3>Skills</h3>
-        <table cellspacing="5">
-            <tr>
-                <td>
-                    <table>
-                        <tr>
-                            <td>BCLS</td>
-                            <td>🤤🤤🤤🤤🤤</td>
-                        </tr>
-                        <tr>
-                            <td>CPR AED</td>
-                            <td>🤤🤤🤤🤤🤤</td>
-                        </tr>
-                        <tr>
-                            <td>Photography</td>
-                            <td>🤤🤤</td>
-                        </tr>
-                    </table>
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td>Python</td>
-                            <td>🤤</td>
-                        </tr>
-                        <tr>
-                            <td>Procrastination</td>
-                            <td>🤤🤤🤤🤤🤤</td>
-                        </tr>
-                        <tr>
-                            <td>Sleeping</td>
-                            <td>🤤🤤🤤🤤🤤</td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-        </table>
-    </section>
+    <div class="container py-xl-5">
+        <div class="jumbotron text-white jumbotron-image shadow"
+            style="background-image: url(https://static1.thegamerimages.com/wordpress/wp-content/uploads/2020/03/FGO-Ishtar.jpg);">
+            <h2 class="mb-4">
+                Welcome to my site!
+            </h2>
+            <p class="mb-4">
+                Hey, check this out.
+            </p>
+            <a href="https://bootstrapious.com/snippets" class="btn btn-primary">More Bootstrap Snippets</a>
+        </div>
+    </div>
 
 </body>
 

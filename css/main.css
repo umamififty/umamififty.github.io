@@ -1,5 +1,5 @@
-.introduction{
-    font-family: 'Roboto', sans-serif;
+body{
+    background-color: #fbc369;
 }
 
 .profilepic{
@@ -7,20 +7,17 @@
     width: 250px;
 }
 
-ol{
-    font-family: 'Roboto', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+.navbar{
+    background-color: #fbc369;
 }
 
-table{
-    font-family: 'Roboto', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-}
+.navbar-dark .navbar-nav .nav-link {
+    color: black;
+} 
 
-body{
-    background-color: #FFD2C7;
+.jumbotron{
+    background-color: black;
+    border-radius: 0;
 }
 
 hr{
@@ -34,19 +31,16 @@ hr{
 }
 
 h1{
-    color:brown;
-    background-color: white;
-    border-radius: 25px;
+    color:#fbc369;
+    background-color: black;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
-h3{
-    color:brown;
-    background-color: white;
-    border-radius: 25px;
+h2{
+    color:#fbc369;
+    background-color: black;
     padding: 20px;
     font-family: 'Roboto', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
