@@ -21,7 +21,7 @@ body{
 /* The jumbotron... does it work? */
 .jumbotron{
     background-color: black;
-    border-radius: 0;
+    margin-bottom: 0;
 }
 
 /* This is for the button-esque horizontal rows */
