@@ -86,7 +86,9 @@ hr{
 
 .smti_pic{
     width: 25%;
+    height: 237px;
     float: left;
+    display: block;
     margin-right: 30px;
 }
 
