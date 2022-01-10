@@ -124,7 +124,7 @@ hr{
         text-decoration: none;
 }
 
-.bottom-container{
+#footer{
     background-color: #CFB784;
     position: relative;
     padding: 40px 0 20px 0;
@@ -140,11 +140,6 @@ a:hover{
     color: black;
 }
 
-#footer{
-    background-color: #ffffff;
-    padding: 7% 15% 7% 15%;
-    text-align: center;
-}
 
 .footericons{
     padding: 20px 10px;
