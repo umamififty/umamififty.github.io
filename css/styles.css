@@ -124,7 +124,7 @@ hr{
         text-decoration: none;
 }
 
-#footer{
+.bottom-container{
     background-color: #CFB784;
     position: relative;
     padding: 40px 0 20px 0;
